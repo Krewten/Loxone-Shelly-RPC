@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualOut Title="VIO Shelly RGBW2 Color Mode" Comment="RGBW2" Address="http://IP Shelly" CmdInit="" CloseAfterSend="true" CmdSep="">
+	<VirtualOutCmd Title="Output" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?turn=on" CmdOnHTTP="" CmdOnPost="" CmdOff="/color/0?turn=off" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Red Value" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?red=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="true" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Blue Value" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?blue=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="true" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Green Value" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?green=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="true" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="White Value" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?white=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="true" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Brightness" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?gain=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="true" Repeat="0" RepeatRate="0"/>
+</VirtualOut>

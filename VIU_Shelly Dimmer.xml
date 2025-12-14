@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualInUdp Title="VIU Shelly Dimmer" Comment="" Address="192.168.xx.xx" Port="7025">
+	<Info templateType="1" minVersion="14070306"/>
+	<VirtualInUdpCmd Title="Dim Value" Comment="" Address="" Check="[0,5101,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.1&gt;" HintText=""/>
+	<VirtualInUdpCmd Title="Input 1" Comment="" Address="" Check="[0,2101,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.1&gt;" HintText=""/>
+	<VirtualInUdpCmd Title="Input 2" Comment="" Address="" Check="[0,2201,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.1&gt;" HintText=""/>
+	<VirtualInUdpCmd Title="Power" Comment="" Address="" Check="[0,4101,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="1000" DestValHigh="1" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.3&gt;" HintText=""/>
+	<VirtualInUdpCmd Title="Energy" Comment="" Address="" Check="[0,4103,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="60000" DestValHigh="1" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.3&gt;" HintText=""/>
+	<VirtualInUdpCmd Title="Output" Comment="" Address="" Check="[0,1101,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.1&gt;" HintText=""/>
+	<VirtualInUdpCmd Title="Temperature" Comment="" Address="" Check="[0,3104,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.1&gt;" HintText=""/>
+</VirtualInUdp>

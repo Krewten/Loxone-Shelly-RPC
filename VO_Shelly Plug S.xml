@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualOut Title="VIO Shelly Plug S" Comment="" Address="http://IP Shelly" CmdInit="" CloseAfterSend="true" CmdSep="">
+	<VirtualOutCmd Title="Relay" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/relay/0?turn=on" CmdOnHTTP="" CmdOnPost="" CmdOff="/relay/0?turn=off" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+</VirtualOut>

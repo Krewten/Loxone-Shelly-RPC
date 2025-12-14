@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualInUdp Title="VIU Shelly Plus HT" Comment="" Address="192.168.xx.xx" Port="7025">
+	<Info templateType="1" minVersion="14070306"/>
+	<VirtualInUdpCmd Title="Battery" Comment="Prozent" Address="" Check="battery&quot;\i&quot;percent&quot;:\i\v" Signed="false" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="0" MaxVal="100" Unit="&lt;v&gt; %" HintText=""/>
+	<VirtualInUdpCmd Title="Volt"age Comment="Batterie V" Address="" Check="&quot;battery&quot;:{&quot;V&quot;:\v" Signed="false" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="0" MaxVal="100" Unit="&lt;v.2&gt; V" HintText=""/>
+	<VirtualInUdpCmd Title="Humidity" Comment="Prozent" Address="" Check="&quot;humidity:0&quot;:{&quot;id&quot;: 0,&quot;rh&quot;:\v" Signed="false" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="0" MaxVal="100" Unit="&lt;v.1&gt; %" HintText=""/>
+	<VirtualInUdpCmd Title="External Power" Comment="1=on, 0=off" Address="" Check="&quot;external&quot;:{&quot;present&quot;:\1" Signed="true" Analog="true" SourceValLow="102" DestValLow="0" SourceValHigh="116" DestValHigh="1" DefVal="0" MinVal="0" MaxVal="1000" Unit="&lt;v&gt;" HintText=""/>
+	<VirtualInUdpCmd Title="Temperature" Comment="°C" Address="" Check="&quot;temperature:0&quot;:{&quot;id&quot;: 0,&quot;tC&quot;:\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.1&gt; °C" HintText=""/>
+	<VirtualInUdpCmd Title="rssi" Comment="Signalstärke" Address="" Check="&quot;rssi&quot;:\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v&gt;" HintText=""/>
+</VirtualInUdp>

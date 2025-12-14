@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualInUdp Title="VIU Shelly RGBW2" Comment="" Address="192.168.xx.xx" Port="7025">
+	<Info templateType="1" minVersion="14051207"/>
+	<VirtualInUdpCmd Title="Power" Comment="" Address="" Check="[0,4101,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="15" DestValHigh="15" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.2&gt; W" HintText=""/>
+	<VirtualInUdpCmd Title="Status" Comment="" Address="" Check="[0,1101,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="1" DestValHigh="1" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v&gt;" HintText=""/>
+</VirtualInUdp>
